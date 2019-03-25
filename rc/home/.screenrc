@@ -1,0 +1,12 @@
+
+startup_message off
+vbell off
+
+escape ^Z^Z
+bind Z suspend
+bind ! only
+bind z only
+
+hardstatus alwayslastline
+hardstatus string "%?%h%:%{= dd} %-w%10L>%{=r dd}%n %t* %{-}%45L>%+w %-037= [%l] %Y-%m-%d %0c:%s"
+

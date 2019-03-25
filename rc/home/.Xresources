@@ -1,0 +1,38 @@
+
+!!! xterm (XTerm/UXTerm)
+!! terminal
+xterm*decTerminalID: 340
+xterm*numColorRegisters: 1024
+xterm*termName: xterm-256color
+xterm*loginShell: true
+xterm*saveLines: 4096
+!xterm*ScrollBar: true
+!xterm*rightScrollBar: true
+xterm*selectToClipboard: true
+!! fonts
+xterm*faceName: monospace:lang=en
+xterm*faceNameDoublesize: monospace:lang=ja
+xterm*faceSize: 12
+!! color scheme: 'iceberg' <https://cocopon.github.io/iceberg.vim/>
+!xterm*foreground: #c6c8d1
+!xterm*color0: #1e2132
+xterm*foreground: #d2d4de
+xterm*background: #161821
+xterm*cursorColor: #d2d4de
+xterm*color0: #161821
+xterm*color1: #e27878
+xterm*color2: #b4be82
+xterm*color3: #e2a478
+xterm*color4: #84a0c6
+xterm*color5: #a093c7
+xterm*color6: #89b8c2
+xterm*color7: #c6c8d1
+xterm*color8: #6b7089
+xterm*color9: #e98989
+xterm*color10: #c0ca8e
+xterm*color11: #e9b189
+xterm*color12: #91acd1
+xterm*color13: #ada0d3
+xterm*color14: #95c4ce
+xterm*color15: #d2d4de
+

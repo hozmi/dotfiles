@@ -1,0 +1,75 @@
+" .vimrc
+"set nocompatible
+
+set number
+set ruler
+set laststatus=2
+set cmdheight=2
+set title
+
+if has('syntax')
+    syntax enable
+    set colorcolumn=80
+endif
+"set wrap
+"set display=lastline
+set nowrap
+set list
+set listchars=tab:>-,trail:-,nbsp:%,extends:>,precedes:<,eol:\|
+set showmatch
+set matchtime=1
+set hidden
+set confirm
+set autoread
+set autowrite
+
+set whichwrap=b,s,h,l,<,>,[,]
+set backspace=indent,eol,start
+
+set visualbell
+set t_vb=
+
+set autoindent
+set expandtab
+set tabstop=4
+set shiftwidth=2
+set softtabstop=2
+
+set incsearch
+set ignorecase
+set smartcase
+set wrapscan
+
+set wildmenu
+
+
+nnoremap ; :
+nnoremap : ;
+vnoremap ; :
+vnoremap : ;
+
+nnoremap Y y$
+
+" for when ':set wrap'
+nnoremap k   gk
+nnoremap j   gj
+vnoremap k   gk
+vnoremap j   gj
+nnoremap gk  k
+nnoremap gj  j
+vnoremap gk  k
+vnoremap gj  j
+
+inoremap { {}<Left>
+inoremap [ []<Left>
+inoremap ( ()<Left>
+
+if 0 | endif
+" .vimrc for 'vim.tiny' ends here.
+" The rest is for 'vim' (> tiny).
+
+set pumheight=10
+colorscheme desert
+
+"runtime! userautoload/init/*.vim
+

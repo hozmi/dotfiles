@@ -1,0 +1,19 @@
+# .gitignore
+
+*~
+*\#
+*.bak
+*.orig
+*.rej
+*.asv
+*.swp
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Mac OS X
+.DS_Store

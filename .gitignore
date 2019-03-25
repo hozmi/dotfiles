@@ -1,0 +1,13 @@
+
+#--------------------------------------
+# ignore personal/sensitive data
+# (eg.: email address, passwords, .ssh/ directory, etc.)
+.personal/
+.sensitive/
+no-track/
+## well-known files/dirs.
+.gnupg/
+.ssh/
+.authinfo*
+.netrc*
+.git-credentials
